@@ -1031,6 +1031,9 @@ justify-content: center;
   padding: 10px;
 }
 
+.submit-btn:hover{
+  background-color: var(--BLACK-CLR)!important;
+}
 
 @media (max-width: 768px){
   .bulk-contact-form-container{
