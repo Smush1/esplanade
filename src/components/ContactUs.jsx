@@ -70,6 +70,7 @@ function ContactUs() {
                     <div className='col-12 field p-0'>
                         <input type="submit" className='btn btn-primary submit-btn col-12 mt-3 text-uppercase' />
                     </div>
+                    <input type="hidden" name="_cc" value="sumesh.kumar@mediax.com"></input>
                   </div> 
                 </form>
                 

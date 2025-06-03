@@ -1,5 +1,5 @@
 import logo from '../images/Esplanade.webp'
-import formSvg from '../images/form-button.svg'
+import formSvg from '../images/esplanade-form.svg'
 
 function Header() {
   
