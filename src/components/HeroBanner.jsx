@@ -38,10 +38,8 @@ function HeroBanner({desktopBanner, mobileBanner}) {
                               desktopBanner +  " 1400w," +              
                               desktopBanner +  " 1440w " } />              
                           <div className="carousel-caption">
-                              <h1 className="pb-2">Handcrafted Decor That<br/>Elevates Your Space</h1>
-                              <p className="pb-2">Explore our handcrafted collection, trusted by customers across the globe. Every product is
-                                  handmade, designed by us, and crafted under our supervision. We proudly retail globally
-                                  on <a href="https://www.indusmela.com" target="_blank" rel="noreferrer"  className="hero-banner-link">Indusmela.com</a>, <a href="https://www.indusmela.in" target="_blank" rel="noreferrer"  className="hero-banner-link">Indusmela.in</a> and <a href="https://www.amazon.in/stores/Esplanade/page/6EDF2242-32E3-41A7-8691-029709AF31E9?lp_asin=B09MJ7H2JS&ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto" target="_blank" rel="noreferrer"  className="hero-banner-link">Amazon</a> ensuring premium quality, fair pricing, and reliable delivery. Our mission is to bring the warmth of Indian artistry into homes worldwide.</p>
+                              <h1 className="pb-2">Handcrafted Décor Rooted <br/>in Indian Craftsmanship</h1>
+                              <p className="pb-2">Discover a thoughtfully curated range of wall art, idols, accents, and more—each piece handmade with care, inspired by tradition, and crafted to elevate modern living. Esplanade proudly retails globally through <a href="https://www.indusmela.com" target="_blank" rel="noreferrer"  className="hero-banner-link">Indusmela.com</a>, <a href="https://www.indusmela.in" target="_blank" rel="noreferrer"  className="hero-banner-link">Indusmela.in</a> and <a href="https://www.amazon.in/stores/Esplanade/page/6EDF2242-32E3-41A7-8691-029709AF31E9?lp_asin=B09MJ7H2JS&ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto" target="_blank" rel="noreferrer"  className="hero-banner-link">Amazon</a> ensuring quality, fair pricing, and dependable delivery. Bringing the warmth of Indian artistry into homes across the world.</p>
                               <a href="#featured-products" className="btn btn-custom" aria-label='View Products' >VIEW PRODUCTS</a>
                           </div>
                       </div>

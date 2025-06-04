@@ -6,13 +6,20 @@ function Header() {
 
   const handleHeaderBG = (e) => {
     const toggler = document.querySelector('.navbar-toggler')
-        toggler.classList.toggle('orange-bg')
+        toggler.classList.toggle('orange-bg');
+
+        if (toggler.classList.contains('orange-bg')){
+          document.querySelector('.navbar-toggler-icon').style.display="none"
+        }
+        else{
+          document.querySelector('.navbar-toggler-icon').style.display="block"
+        }
   }
 
   return (
       <header>
         <nav className="navbar navbar-expand-lg fixed-top">
-        <div className="container-fluid d-flex align-items-center justify-content-between">
+        <div className="container-fluid d-flex align-items-center justify-content-between custom-navbar">
            {/*  <!-- Left-aligned Navigation --> */}
             <div className="d-flex">
                 <button className="navbar-toggler" onClick={handleHeaderBG} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

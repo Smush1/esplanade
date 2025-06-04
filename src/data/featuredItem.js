@@ -10,6 +10,10 @@ import featuredImage9 from "../images/featured-img-9.webp"
 import featuredImage10 from "../images/featured-img-10.webp" 
 import featuredImage11 from "../images/featured-img-11.webp" 
 import featuredImage12 from "../images/featured-img-12.webp" 
+import featuredImage13 from "../images/featured-img-13.webp" 
+import featuredImage14 from "../images/featured-img-14.webp" 
+import featuredImage15 from "../images/featured-img-15.webp" 
+import featuredImage16 from "../images/featured-img-16.webp" 
 
 
 
@@ -164,6 +168,54 @@ const FeaturedItemsTab =[
         "productLink": "https://indusmela.in/products/esplanade-brass-christian-cross-jesus-christ-statue-in-antique-finish-12-jesus-cross-1?_pos=1&_sid=c0e415e5f&_ss=r&_fid=7ecff29b9",
         "modalId": "featuredImg12",
         "price": "1,897.00",
+        "salePrice": ""
+    },
+    {
+        "id" : 13,
+        "imageLink" : featuredImage13,
+        "altText": `eSplanade - Brass Lord Krishna Kishan Murti Idol Statue Sculpture - 29" Inches - Very Big Size`,
+        "desc": "",
+        "sku":"B09MJ7NZ2P",
+        "type": "",
+        "productLink": "https://indusmela.in/products/esplanade-brass-lord-krishna-kishan-murti-idol-statue-sculpture-29-inches-very-big-size",
+        "modalId": "featuredImg12",
+        "price": "25,313.00",
+        "salePrice": ""
+    },
+    {
+        "id" : 14,
+        "imageLink" : featuredImage14,
+        "altText": `ESPLANADE - Brass 3 Domed Temple Mandir for Home - Puja Items - Home Decor - Golden`,
+        "desc": "",
+        "sku":"B0CCJVWF91",
+        "type": "",
+        "productLink": "https://indusmela.in/products/esplanade-brass-3-domed-temple-mandir-for-home-puja-items-home-decor-golden-11-inches?_pos=3&_psq=temple&_ss=e&_v=1.0",
+        "modalId": "featuredImg12",
+        "price": "3,804.00",
+        "salePrice": ""
+    },
+    {
+        "id" : 15,
+        "imageLink" : featuredImage15,
+        "altText": `eSplanade Dance Ghungroo (15 + 15) Ghungroo White Cotton String | Bell, Ghungru 1 Line White cotton string, Ghungroo 1 Line | Paijania | Pazeb | Kathak Indian Classical Dance`,
+        "desc": "",
+        "sku":"B07YSDTTKC",
+        "type": "",
+        "productLink": "https://indusmela.in/products/esplanade-dance-ghungroo-15-15-ghungroo-white-cotton-string-bell-ghungru-1-line-white-cotton-string-ghungroo-1-line-paijania-pazeb-kathak-indian-classical-dance?_pos=3&_psq=ghung&_ss=e&_v=1.0",
+        "modalId": "featuredImg12",
+        "price": "251.00",
+        "salePrice": ""
+    },
+    {
+        "id" : 16,
+        "imageLink" : featuredImage16,
+        "altText": `eSplanade Brass Pooja Mandir Chowki God's Stool - Puja Articles - 2.6" Inches (Very Small)`,
+        "desc": "",
+        "sku":"B09TRL5W1S",
+        "type": "",
+        "productLink": "https://indusmela.in/products/esplanade-brass-pooja-mandir-chowki-gods-stool-puja-articles-2-6-inches-very-small?_pos=1&_psq=chowki&_ss=e&_v=1.0",
+        "modalId": "featuredImg12",
+        "price": "354.00",
         "salePrice": ""
     }
 ]

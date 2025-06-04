@@ -58,6 +58,13 @@ body{
 }
 
 
+.nav-link:focus,
+.nav-link:active,
+.navbar-toggler:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .navbar .navbar-brand img {
   height: 50px;
 }
@@ -120,6 +127,12 @@ body{
 
  .orange-bg{
     background-color: var(--LIGHT-COLOR);
+    background-image: url('../images/white-line.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.7em;
+    height: 2em;
+    background-size: 25px 20px;
   }
 
 
@@ -812,6 +825,10 @@ justify-content: center;
   color: var(--WHITE-CLR)
 }
 
+
+.fi-toggle-section-styling{
+  row-gap:4rem;
+}
 
 
 

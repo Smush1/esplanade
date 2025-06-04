@@ -22,7 +22,7 @@ import category7img2 from "../images/category7-img2.png"
 import category8img1 from "../images/category8-img1.webp"
 import category8img2 from "../images/category8-img2.png"
 
-import category9img1 from "../images/category9-img1.webp"
+import category9img1 from "../images/category9-img1.png"
 
 
 import category10img1 from "../images/category10-img1.webp"
@@ -46,47 +46,6 @@ import category12img1 from "../images/category12-img1.webp"
 const coreCategories = [ 
     {
     "id": 1,
-    "categoryTitle": "Christ Idols & Cross",
-    "categoryImage": category1img1,
-    "dataTarget": "#toysgames",
-    "altText" : "Christ Idols & Cross",
-    "viewMoreLink": "https://indusmela.in/search?q=Christ+Idols+%26+Cross&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
-    },
-    {
-    "id": 2,
-    "categoryTitle": "Cremations Urns",
-    "categoryImage": category2img1,
-    "dataTarget": "#homedecor",
-    "altText" : "Cremations Urns",
-    "viewMoreLink": "https://indusmela.in/collections/cremation-urns?sort_by=best-selling&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte="
-    },
-    {
-    "id": 3,
-    "categoryTitle": "Diya, Lanterns and Lamps",
-    "categoryImage": category3img1,
-    "dataTarget": "#homeorganiser",
-    "altText" : "Diya, Lanterns and Lamps",
-    "viewMoreLink": "https://indusmela.in/search?q=Diya%2C+Lanterns+and+Lamps&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
-    
-    },
-    {
-    "id": 4,
-    "categoryTitle": "Door Numbers & Letters",
-    "categoryImage": category4img1,
-    "dataTarget": "#artscraft",
-    "altText" : "Door Numbers & Letters",
-    "viewMoreLink": "https://indusmela.in/search?q=Door+Numbers+%26+Letters&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
-    },
-    {
-    "id": 5,
-    "categoryTitle": "God Poshak & Dresses",
-    "categoryImage": category5img1,
-    "dataTarget": "#kitchenbathroom",
-    "altText" : "God Poshak & Dresses",
-    "viewMoreLink": "https://indusmela.in/search?q=poshak&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
-    },
-    {
-    "id": 6,
     "categoryTitle": "Hindu God Idols",
     "categoryImage": category6img1,
     "dataTarget": "#religiousitems",
@@ -94,39 +53,7 @@ const coreCategories = [
     "viewMoreLink": "https://indusmela.in/collections/hindu-god-idols?sort_by=best-selling&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte="
     },
     {
-    "id": 7,
-    "categoryTitle": "Home Decor Artifacts",
-    "categoryImage": category7img1,
-    "dataTarget": "#sportsequipment",
-    "altText" : "Home Decor Artifacts",
-    "viewMoreLink": "https://indusmela.in/search?q=Home+Decor+Artifacts&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
-    },
-    {
-    "id": 8,
-    "categoryTitle": `Knobs, Handles & Knockers`,
-    "categoryImage": category8img1,
-    "dataTarget": "#statuessculptures",
-    "altText" : "Knobs, Handles & Knockers",
-    "viewMoreLink": "https://indusmela.in/search?q=Knobs%2C+Handles+%26+Knockers&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
-    },
-    {
-    "id": 9,
-    "categoryTitle": `Money Envelopes`,
-    "categoryImage": category9img1,
-    "dataTarget": "#statuessculptures",
-    "altText" : "Money Envelopes",
-    "viewMoreLink": "https://indusmela.in/search?q=Money+Envelopes&options%5Bprefix%5D=last"
-    },
-    {
-    "id": 10,
-    "categoryTitle": `Singing Bowls and Ghungroo`,
-    "categoryImage": category10img1,
-    "dataTarget": "#statuessculptures",
-    "altText" : "Singing Bowls and Ghungroo",
-    "viewMoreLink": "https://indusmela.in/search?q=Singing+Bowls+and+Ghungroo&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance, https://indusmela.in/search?q=+Ghungroo&options%5Bprefix%5D=last"
-    },
-    {
-    "id": 11,
+    "id": 2,
     "categoryTitle": `Temple Accessories`,
     "categoryImage": category11img1,
     "dataTarget": "#statuessculptures",
@@ -134,12 +61,85 @@ const coreCategories = [
     "viewMoreLink": "https://indusmela.in/collections/temple-accessories?sort_by=best-selling&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte="
     },
     {
-    "id": 12,
+    "id": 3,
+    "categoryTitle": "God Poshak & Dresses",
+    "categoryImage": category5img1,
+    "dataTarget": "#kitchenbathroom",
+    "altText" : "God Poshak & Dresses",
+    "viewMoreLink": "https://indusmela.in/search?q=poshak&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
+    },
+    {
+    "id": 4,
     "categoryTitle": `Wall Decor & Hangings`,
     "categoryImage": category12img1,
     "dataTarget": "#statuessculptures",
     "altText" : "Wall Decor & Hangings",
     "viewMoreLink": "https://indusmela.in/search?q=Wall+Decor+%26+Hangings&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
+    },
+    {
+    "id": 5,
+    "categoryTitle": "Cremations Urns",
+    "categoryImage": category2img1,
+    "dataTarget": "#homedecor",
+    "altText" : "Cremations Urns",
+    "viewMoreLink": "https://indusmela.in/collections/cremation-urns?sort_by=best-selling&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte="
+    },
+    {
+    "id": 6,
+    "categoryTitle": "Diya, Lanterns & Lamps",
+    "categoryImage": category3img1,
+    "dataTarget": "#homeorganiser",
+    "altText" : "Diya, Lanterns and Lamps",
+    "viewMoreLink": "https://indusmela.in/search?q=Diya%2C+Lanterns+and+Lamps&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
+
+    },
+    {
+        "id": 7,
+        "categoryTitle": "Home Decor Artifacts",
+        "categoryImage": category7img1,
+        "dataTarget": "#sportsequipment",
+        "altText" : "Home Decor Artifacts",
+        "viewMoreLink": "https://indusmela.in/collections/home-decor"
+    },
+    {
+        "id": 8,
+    "categoryTitle": `Knobs, Handles & Knockers`,
+    "categoryImage": category8img1,
+    "dataTarget": "#statuessculptures",
+    "altText" : "Knobs, Handles & Knockers",
+    "viewMoreLink": "https://indusmela.in/search?q=Knobs%2C+Handles+%26+Knockers&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
+    },
+    {
+        "id": 9,
+        "categoryTitle": "Door Numbers & Letters",
+        "categoryImage": category4img1,
+        "dataTarget": "#artscraft",
+        "altText" : "Door Numbers & Letters",
+        "viewMoreLink": "https://indusmela.in/search?q=Door+Numbers+%26+Letters&options%5Bprefix%5D=last&filter.p.vendor=eSplanade&filter.v.price.gte=&filter.v.price.lte=&sort_by=relevance"
+    },
+    {
+    "id": 10,
+    "categoryTitle": `Singing Bowls and Ghungroo`,
+    "categoryImage": category10img1,
+    "dataTarget": "#statuessculptures",
+        "altText" : "Singing Bowls and Ghungroo",
+        "viewMoreLink": "https://indusmela.in/collections/musical-accessories"
+    },
+    {
+        "id": 11,
+        "categoryTitle": "Christ Idols & Cross",
+        "categoryImage": category1img1,
+        "dataTarget": "#toysgames",
+        "altText" : "Christ Idols & Cross",
+        "viewMoreLink": "https://indusmela.in/collections/christian-articles"
+    },
+    {
+        "id": 12,
+        "categoryTitle": `Money Envelopes`,
+        "categoryImage": category9img1,
+        "dataTarget": "#statuessculptures",
+        "altText" : "Money Envelopes",
+        "viewMoreLink": "https://indusmela.in/search?q=Money+Envelopes&options%5Bprefix%5D=last"
     }
 ]
 

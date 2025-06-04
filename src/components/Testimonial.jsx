@@ -67,8 +67,8 @@ const handleTestContent = (index) => {
    
   return (
     <div className="testimonial">
-      <h3 className="testimonial-heading text-center fw-bold">Hear from our happy customers</h3>
-      <p className="testimonial-para text-center mx-auto">Look at what they have to say about their purchase & product</p>
+      <h3 className="testimonial-heading text-center fw-bold">Hear from Our Happy Customers</h3>
+      <p className="testimonial-para text-center mx-auto">See what they’re saying about their Esplanade experience</p>
       <div className='container'>
       <Slider {...settings}>
 

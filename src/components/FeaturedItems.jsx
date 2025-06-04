@@ -41,7 +41,7 @@ function FeaturedItems() {
     <>
     <div className='container mb-4' id="featured-products">
         <h2 className='featured-items-heading fw-bold'>Featured Products</h2>
-        <p >Explore our range of finest handmade products across popular categories</p>
+        <p >A handpicked selection of our bestsellers—crafted to add warmth and character to your space.</p>
             <div className='row fi-grid--container '>
                 {/* Start of rendering 8 featured product items */}
                     {
